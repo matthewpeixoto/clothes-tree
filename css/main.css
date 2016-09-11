@@ -48,7 +48,8 @@ h1 {
 }
 
 .logo img {
-  height: 100%;
+  height: 3rem;
+  padding: .875em;
 }
 
 .nav {
@@ -71,11 +72,10 @@ h1 {
   color: #fff;
   border-bottom: 1px solid #2e2b28;
   text-decoration: none;
-  font-weight: 300;
 }
 
 .nav a:hover {
-  color: #d3cab6;
+  color: #c1b497;
 }
 
 /* Navigation toggle */
@@ -136,6 +136,14 @@ h1 {
     line-height: 1.4;
   }
 
+  header {
+    padding-top: .5em;
+  }
+
+  .logo img {
+    padding: .75em;
+  }
+
   .nav-label {
     display: none;
   }
@@ -155,8 +163,8 @@ h1 {
   }
 
   .nav a {
-    padding: .75em 0 1.75em;
-    font-size: .875rem;
+    padding: .5em 0 1.5em;
+    font-size: .75rem;
     width: auto;
     border: none;
   }
@@ -164,6 +172,8 @@ h1 {
   .call {
     display: none;
   }
+
+
 }
 
 
