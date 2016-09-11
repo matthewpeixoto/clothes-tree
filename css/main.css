@@ -82,24 +82,34 @@ h1 {
   display: block;
 }
 
-.nav-label,
+.nav-label {
+  cursor: pointer;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: url("../images/icons/nav-sprite.svg");
+  background-size: 48px auto;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-position: center bottom;
+}
+
 .call {
   cursor: pointer;
   display: inline-block;
   width: 48px;
   position: absolute;
+  right: 0;
   bottom: 0;
 }
 
-.nav-label {
-  left: 0;
-}
-
-.call {
-  right: 0;
-}
-
-.nav-icon,
 .phone-icon {
   display: block;
   width: 100%;
