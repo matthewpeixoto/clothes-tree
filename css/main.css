@@ -57,7 +57,8 @@ h1 {
 }
 
 .nav a {
-  padding: 1em;
+  padding: 1em 0;
+  padding-left: 56px;
   width: 100%;
   display: inline-block;
   color: #fff;
@@ -94,7 +95,17 @@ h1 {
   bottom: 0;
 }
 
-.nav-label img {
+.call {
+  cursor: pointer;
+  display: inline-block;
+  width: 56px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.nav-icon,
+.phone-icon {
   display: block;
   width: 100%;
 }
