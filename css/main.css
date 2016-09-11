@@ -37,9 +37,9 @@ header a {
 
 h1 {
   margin: 0;
-  padding: .75em;
+  padding: .739em;
   text-align: center;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-family: 'Merriweather', serif;
 }
 
@@ -81,22 +81,21 @@ h1 {
   display: block;
 }
 
-.nav-label {
-  cursor: pointer;
-  display: inline-block;
-  width: 56px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-
+.nav-label,
 .call {
   cursor: pointer;
   display: inline-block;
-  width: 56px;
+  width: 48px;
   position: absolute;
-  right: 0;
   bottom: 0;
+}
+
+.nav-label {
+  left: 0;
+}
+
+.call {
+  right: 0;
 }
 
 .nav-icon,
