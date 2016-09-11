@@ -4,7 +4,11 @@
 	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
 <style type="text/css">
 	.st0{display:none;fill:none;stroke:#666666;stroke-width:3;stroke-miterlimit:10;}
+<<<<<<< HEAD
 	.st1{fill:none;stroke:#666666;stroke-width:2;stroke-miterlimit:10;}
+=======
+	.st1{fill:none;stroke:#999999;stroke-width:2;stroke-miterlimit:10;}
+>>>>>>> origin/gh-pages
 </style>
 <line class="st0" x1="30" y1="39.5" x2="70" y2="39.5"/>
 <line class="st0" x1="30" y1="50.5" x2="70" y2="50.5"/>
