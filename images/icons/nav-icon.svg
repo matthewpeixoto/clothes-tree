@@ -6,8 +6,8 @@
 	.st0{fill:none;stroke:#666666;stroke-width:2;stroke-miterlimit:10;}
 </style>
 <g>
-	<line class="st0" x1="30" y1="39" x2="70" y2="39"/>
-	<line class="st0" x1="30" y1="50" x2="70" y2="50"/>
-	<line class="st0" x1="30" y1="61" x2="70" y2="61"/>
+	<line class="st0" x1="32.6" y1="39.9" x2="67.6" y2="39.9"/>
+	<line class="st0" x1="32.6" y1="50" x2="67.6" y2="50"/>
+	<line class="st0" x1="32.4" y1="60.1" x2="67.4" y2="60.1"/>
 </g>
 </svg>
