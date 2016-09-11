@@ -45,20 +45,19 @@ h1 {
 
 .nav {
   margin: 0;
-  padding: 0;
+  padding: 0 3em;
   list-style-type: none;
   display: none;
   position: absolute;
   background-color: #25211e;
-  border-bottom: 1em solid #2e2b28;
+  border-bottom: 2em solid #25211e;
   width: 0;
-  top: 100%;
+  top: 99.9%;
   width: 100%;
 }
 
 .nav a {
   padding: 1em 0;
-  padding-left: 56px;
   width: 100%;
   display: inline-block;
   color: #fff;
@@ -67,12 +66,8 @@ h1 {
   font-weight: 300;
 }
 
-.nav li:first-child {
-  border-top: 1px solid #2e2b28;
-}
-
 .nav a:hover {
-  background-color: #221d19;
+  color: #666;
 }
 
 /* Navigation toggle */
